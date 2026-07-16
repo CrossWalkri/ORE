@@ -4,6 +4,13 @@ A companion specification to [CRAFT](https://github.com/CrossWalkri/craft-meta-s
 
 Every system that turns records into decisions has sources it did not create. ORE specifies what an honest account of a source must contain, and what a system is obligated to do differently when that account is thin. It grades uncertainty, never worth: a grade calibrates weight, monitoring, and eligible downstream use, and the judgment of whether the support suffices stays with the person reading the output.
 
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/evidence-path-0_1_0-dark.svg">
+  <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding contract binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
+</picture>
+</p>
+
 **[Read the specification](ore-specification-0_1_0.md)** (v0.1.0)
 
 ## What it specifies
