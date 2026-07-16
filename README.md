@@ -7,7 +7,7 @@ Every system that turns records into decisions has sources it did not create. OR
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/evidence-path-0_1_0-dark.svg">
-  <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
+  <img alt="CRAFT governs the chain from world to decision end to end; ORE sits at its source boundary, WALKRI on its intake fields, the finding at its claim. ORE is not a stage before the chain; it is the accounting discipline for what the chain assumes at entry." src="images/evidence-path-0_1_0-light.svg" width="880">
 </picture>
 </p>
 
@@ -25,7 +25,7 @@ Plus **intake postures** (Screened, Graded, Open): systems legitimately differ i
 
 ORE inherits by reference from [CRAFT](https://github.com/CrossWalkri/craft-meta-standard) (the chain), [WALKRI](https://github.com/CrossWalkri) (the field: the paired instrument at the same boundary), the [Precision-First Design Standard](https://github.com/coordination-structural-integrity-suite/suite) (operational definability), and the [Information Asymmetry Classification Standard](https://github.com/coordination-structural-integrity-suite/suite) (the asymmetry taxonomy). It is independently adoptable: taking ORE requires taking nothing else.
 
-Together the family covers the evidence path end to end: **source (ORE), field (WALKRI), chain (CRAFT), and claim**: the finding, the discipline for what an output must carry before anyone acts on it, publishing separately.
+CRAFT governs the chain end to end as process; the others sit at loci on it. **ORE** is the accounting discipline at the source boundary (not a stage before the chain: ingestion is the chain's first stage, and ORE specifies what may be assumed about the sources feeding it). **WALKRI** holds the intake fields, and **the finding**, the discipline for what an output must carry before anyone acts on it, binds the claim at exit; it publishes separately.
 
 ## License
 
