@@ -7,7 +7,7 @@ Every system that turns records into decisions has sources it did not create. OR
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/evidence-path-0_1_0-dark.svg">
-  <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding contract binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
+  <img alt="The evidence path: ORE grades the source, WALKRI grades the field, CRAFT holds the chain, the finding binds the claim." src="images/evidence-path-0_1_0-light.svg" width="880">
 </picture>
 </p>
 
@@ -25,7 +25,7 @@ Plus **intake postures** (Screened, Graded, Open): systems legitimately differ i
 
 ORE inherits by reference from [CRAFT](https://github.com/CrossWalkri/craft-meta-standard) (the chain), [WALKRI](https://github.com/CrossWalkri) (the field: the paired instrument at the same boundary), the [Precision-First Design Standard](https://github.com/coordination-structural-integrity-suite/suite) (operational definability), and the [Information Asymmetry Classification Standard](https://github.com/coordination-structural-integrity-suite/suite) (the asymmetry taxonomy). It is independently adoptable: taking ORE requires taking nothing else.
 
-Together the family covers the evidence path end to end: **source (ORE), field (WALKRI), chain (CRAFT), claim** (the finding output contract).
+Together the family covers the evidence path end to end: **source (ORE), field (WALKRI), chain (CRAFT), and claim**: the finding, the discipline for what an output must carry before anyone acts on it, publishing separately.
 
 ## License
 
