@@ -29,6 +29,8 @@ ORE inherits by reference from [CRAFT](https://github.com/CrossWalkri/craft-meta
 
 CRAFT governs the chain end to end as process; the others sit at loci on it. **ORE** is the accounting discipline at the source boundary (not a stage before the chain: ingestion is the chain's first stage, and ORE specifies what may be assumed about the sources feeding it). **WALKRI** holds the intake fields, and **the finding**, the discipline for what an output must carry before anyone acts on it, binds the claim at exit; it publishes separately.
 
+As of CRAFT v0.4.4, a chain that ingests material it did not create carries an ingestion boundary declaration (CRAFT Section 6.1), satisfied by adopting ORE or by declaring equivalent obligations. Where ORE attaches to each of CRAFT's six conditions is mapped, condition by condition, in the **[ORE-to-CRAFT condition map](ore-craft-condition-map-0_1_0.md)**.
+
 ## License
 
 CC0 1.0 Universal. No permission or fee, no attribution required. See [LICENSE](LICENSE).
