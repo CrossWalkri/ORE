@@ -2,7 +2,7 @@
 
 A companion specification to [CRAFT](https://github.com/CrossWalkri/craft-meta-standard): what an evaluation chain is allowed to assume about what enters it. ORE is the chain's first legible commitment about its sources.
 
-Every system that turns records into decisions has sources it did not create. ORE specifies what an honest account of a source must contain, and what a system is obligated to do differently when that account is thin. It grades uncertainty, never worth: a grade calibrates weight, monitoring, and eligible downstream use, and the judgment of whether the support suffices stays with the person reading the output.
+Every system that turns records into decisions has sources it did not create. ORE specifies what an honest account of a source must contain, and what a system is obligated to do differently when that account is thin. It grades uncertainty, never worth: a grade calibrates weight, monitoring, and eligible downstream use, and the judgment of whether the support suffices stays with the output's consumer, human or automated, never with the grade.
 
 <p align="center">
 <picture>
@@ -13,7 +13,7 @@ Every system that turns records into decisions has sources it did not create. OR
 
 What only ORE does, in one line: grade source visibility as uncertainty, refuse to let party count impersonate independence, treat opacity without verdicts, and make every output wear the grade profile of what it rests on.
 
-**[Read the specification](ore-specification-0_1_0.md)** (v0.1.0)
+**[Read the specification](ore-specification-0_1_1.md)** (v0.1.1)
 
 ## What it specifies
 

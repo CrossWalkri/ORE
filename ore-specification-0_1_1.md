@@ -1,7 +1,7 @@
 
 # ORE: Origin, Reliability, Exposure
 
-**A companion specification to CRAFT** · v0.1.0 · 2026-07-16 · CC0 1.0
+**A companion specification to CRAFT** · v0.1.1 · 2026-07-19 · CC0 1.0
 
 *The input-stage companion to CRAFT: what an evaluation chain is allowed to assume about what enters it. ORE is the chain's first legible commitment about its sources, presupposed by the first acts performed on any record.*
 
@@ -82,7 +82,7 @@ Grading that stops at the ingestion boundary is bookkeeping. The obligation that
 - Where separately admitted sources in one support cannot be shown distinct in effective origin, the output MUST carry a joint-support flag: separately admitted is not independently originated, and that difference is exactly what per-source confirmation architecture cannot see across sources.
 - No output may silently launder ungraded or flagged material into a downstream judgment. Where an output rests partly on ungraded material admitted under an Open posture (Section 6), the output says so on its face.
 
-The worth-judgment about whether that support suffices belongs to the person reading the output, and the exposure exists so that judgment is possible.
+The worth-judgment about whether that support suffices belongs to the output's consumer, human or automated. A human reader makes it directly; an automated consumer makes it through decision logic that is itself readable and challengeable. The exposure exists so that the judgment, wherever it is made, is made from the readings rather than in silence.
 
 ## 6. Intake postures
 
@@ -130,3 +130,9 @@ The boundary is equally clean: bonded public challenge operates where falsifying
 ## 11. Self-application
 
 Applied to its own principal sources, this specification grades candidly. The design capture it draws from is a working document, unconfirmed, authored by a party with maximal stake in how its categories are recorded. The curation paper cited in Section 10 is a single-author preprint: high provenance, sound structure, no independent confirmation. CRAFT is published and versioned, and its conformance is presently self-attested. Per Section 2, thin accounts are higher uncertainty carrying a monitoring obligation, not verdicts on the sources; the profile is stated here because Section 5 binds this document's own claims like any other output.
+
+## Changelog
+
+v0.1.1 (2026-07-19): Section 5's worth-judgment sentence corrected to cover both reader classes the specification is written for: the judgment belongs to the output's consumer, human or automated, with an automated consumer making it through decision logic that is itself readable and challengeable. The prior wording assigned the judgment to "the person reading the output," which understated the machine-readable half of the specification's audience. No other normative content changed.
+
+v0.1.0 (2026-07-16): Initial publication, including the release-gate repairs and the 2026-07-17 disconfirmation pass Tiers 1 and 2.
