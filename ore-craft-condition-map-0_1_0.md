@@ -2,7 +2,7 @@
 title: ORE-to-CRAFT Condition Map
 version: 0.1.0
 date: 2026-07-18
-status: Companion mapping document. Shows where ORE attaches to each of the six CRAFT conditions, against CRAFT specification v0.4.4 and ORE specification v0.1.1. Descriptive of both documents; normative content lives in the specifications themselves.
+status: Companion mapping document. Shows where ORE attaches to each of the six CRAFT conditions, against CRAFT specification v0.4.4 and ORE specification v0.1.2. Descriptive of both documents; normative content lives in the specifications themselves.
 license-intent: CC0
 ---
 

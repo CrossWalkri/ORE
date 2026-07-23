@@ -13,7 +13,7 @@ Every system that turns records into decisions has sources it did not create. OR
 
 What only ORE does, in one line: grade source visibility as uncertainty, refuse to let party count impersonate independence, treat opacity without verdicts, and make every output wear the grade profile of what it rests on.
 
-**[Read the specification](ore-specification-0_1_1.md)** (v0.1.1)
+**[Read the specification](ore-specification-0_1_2.md)** (v0.1.2)
 
 ## What it specifies
 

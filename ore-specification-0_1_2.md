@@ -1,7 +1,7 @@
 
 # ORE: Origin, Reliability, Exposure
 
-**A companion specification to CRAFT** · v0.1.1 · 2026-07-19 · CC0 1.0
+**A companion specification to CRAFT** · v0.1.2 · 2026-07-22 · CC0 1.0
 
 *The input-stage companion to CRAFT: what an evaluation chain is allowed to assume about what enters it. ORE is the chain's first legible commitment about its sources, presupposed by the first acts performed on any record.*
 
@@ -17,13 +17,15 @@ This specification specifies the structural conditions for grading data sources 
 
 It specifies what a conformant grading must account for, record, and expose. It does not specify how any dimension is computed. Instruments that compute effective independence, read behavioral residue, or resolve identity are implementations; a system may keep their mechanics private without impairing conformance, because conformance is judged from what the system declares, exposes, and records: the exposure and posture obligations are assessable from public declarations and outputs alone, and the recording obligations are assessable in audit, where the records this specification requires are produced. This is the legibility principle inherited from CRAFT: any party with relevant knowledge can determine, from the published declarations alone, what the system claims about its sources and what would constitute evidence that a claim is wrong.
 
+**What the grade is for, and where quality and risk live.** A grade is an input to three mechanisms: eligible downstream use (Section 6), what every output exposes (Section 5), and the monitoring obligation the source carries (Sections 4 and 7). Quality is a downstream judgment made against pre-specified criteria, and its results return to the grade as track record. Risk is factored, never bundled: a system's exposure decomposes by where risk originates and what its activation would touch, and a source grade is the current reading on one origin, the integrity of the information the system acts on, verified at the point of use, the defense against corruption that arrives whole. The monitoring obligation is the same origin's trajectory reading, the defense against what accumulates below every threshold: sources can degrade or be captured without any single measurement crossing a line, and for that class of movement the absence of an adverse signal means the limit of what can be seen, not the absence of danger. That is why an ungraded or opaque source is a recorded state and never a blank that reads as safe. Composing graded material into a decision belongs to the consuming system's declared decision logic, human or automated; silent composition is forbidden everywhere, and this specification's work is to ensure that whoever composes, composes from readings rather than from silence.
+
 ## 2. The core reframe: grades measure uncertainty, not quality
 
 A source grade is an uncertainty measurement, not a quality verdict. The dimensions in this specification do not answer "how good is this source." They answer "how much of this source's reliability can currently be seen, and what is being trusted that cannot be seen."
 
 This distinction is normative, not rhetorical. A conformant system:
 
-- MUST use grades to calibrate weight, monitoring intensity, and eligible downstream use;
+- MUST use grades to determine eligible downstream use (Section 6), what every output exposes (Section 5), and the monitoring obligation each source carries (Sections 4 and 7); how a system weights graded material within its own reasoning beyond these mechanisms is implementation;
 - MUST NOT present a grade as a judgment of the source's worth, and MUST NOT use a low grade as grounds for rejection where the posture declared under Section 6 admits the source;
 - MUST distinguish "ungraded" from "low-grade" as different states with different obligations. A source about which little is verifiable is not a bad source; it is a source carrying more uncertainty, and the system's response is calibrated weight and monitoring, not verdict.
 
@@ -96,6 +98,8 @@ Systems legitimately differ in when grading happens and in what ungraded materia
 
 Movement between postures is expected and legitimate: a system may open for a migration and screen for a case. What conformance requires is that the posture in force for any admitted record is recorded with it, so that no record's grading history is ambiguous later.
 
+**Standing loss.** A source's eligibility under a declared posture MAY be reduced or withdrawn only through a documented, evidence-based process: the evidence, the basis, and the decision are recorded, and the record is retained with the source. Adverse findings about a source are never silently discarded, however the assessment resolves; this inherits the Adverse-Signal Engagement Principle (Section 9). Loss of standing changes eligibility going forward; it is not a retroactive verdict on outputs already produced, whose Section 5 exposure records stand.
+
 ## 7. Genesis limitations
 
 Some dimensions are uncomputable at a system's or a source's beginning: a new source has no track record; effective independence may be unassessable before interaction history exists. A conformant grading:
@@ -116,6 +120,7 @@ This specification is independently adoptable and inherits by reference:
 - **WALKRI:** the paired instrument at the same boundary. WALKRI grades the field (would two independent readers collect the same thing from the definition?); this specification grades the source (how much of what feeds the field can be seen?). A record can fail at either, and neither grading substitutes for the other. Where a field's object is itself a source grade, the pair co-designs: WALKRI grades the reproducibility of the grading act, and this specification grades the source being graded. The pair does not tile the intake surface: whether a field's intended meaning matches a source's actual meaning is CRAFT Condition 2's obligation (the adequacy of the ontology to the estimand) and belongs to neither instrument.
 - **Precision-First Design Standard:** every grading criterion and posture rule in a conformant system is held to operational definability; a dimension whose assessment two independent graders cannot reproduce from the declared basis is a precision deficit.
 - **Information Asymmetry Classification Standard:** the independence dimension and the Section 4 opacity treatment draw on its six-class taxonomy of structural informational advantage, in particular the positional, relational, and omission classes.
+- **Adverse-Signal Engagement Principle Core Standard:** the no-silent-discard obligation on adverse findings about sources, and risk-weighted engagement (higher-impact signals demand stronger and faster response, no qualifying signal silently ignored), inherited by the Section 6 standing-loss process and the monitoring obligations.
 
 ## 10. Related realization: bonded-challenge curation
 
@@ -127,11 +132,15 @@ Three of the framework's commitments converge independently with this specificat
 
 The boundary is equally clean: bonded public challenge operates where falsifying evidence is feasible, cheap, and publicly disclosable without harm beyond the verdict it delivers. Where any of those fail, Section 4's opacity and monitoring path continues coverage. The two are complements: the open-posture specialist and the posture-general discipline.
 
+**Related practice in stringent regimes.** The obligations this specification states have working precedents. United States Intelligence Community Directive 206 requires source descriptors on every analytic product, the Section 5 exposure obligation in another uniform. Pharmaceutical regulators (FDA, MHRA) assess data sources for admission at the source level, not only record by record. And the browser root-store programs operate the fullest lifecycle over admitted sources, recurring audits, incident reporting, and distrust, which is the direction the track-record dimension of Section 3.4 grows toward in a future version.
+
 ## 11. Self-application
 
 Applied to its own principal sources, this specification grades candidly. The design capture it draws from is a working document, unconfirmed, authored by a party with maximal stake in how its categories are recorded. The curation paper cited in Section 10 is a single-author preprint: high provenance, sound structure, no independent confirmation. CRAFT is published and versioned, and its conformance is presently self-attested. Per Section 2, thin accounts are higher uncertainty carrying a monitoring obligation, not verdicts on the sources; the profile is stated here because Section 5 binds this document's own claims like any other output.
 
 ## Changelog
+
+v0.1.2 (2026-07-22): The purpose package, set in after external research and the risk-model prove-out. Section 1 gains the purpose paragraph stating what the grade is for and where quality and risk live: the grade as an input to three mechanisms; quality as a downstream judgment returning as track record; risk factored rather than bundled, with the grade as an origin's state reading verified at the point of use and the monitoring obligation as its trajectory reading; composition belonging to the consuming system's declared decision logic, human or automated, with silent composition forbidden. Section 2's first conformance bullet restated in the same three-mechanisms form, with weighting beyond them named as implementation. Section 6 gains the standing-loss process (documented, evidence-based, recorded, never silently discarding adverse findings, non-retroactive). Section 9 adds the Adverse-Signal Engagement Principle inheritance. Section 10 gains related practice in stringent regimes (ICD 206 source descriptors, FDA/MHRA source-level admission, root-store lifecycle as the future direction).
 
 v0.1.1 (2026-07-19): Section 5's worth-judgment sentence corrected to cover both reader classes the specification is written for: the judgment belongs to the output's consumer, human or automated, with an automated consumer making it through decision logic that is itself readable and challengeable. The prior wording assigned the judgment to "the person reading the output," which understated the machine-readable half of the specification's audience. No other normative content changed.
 
