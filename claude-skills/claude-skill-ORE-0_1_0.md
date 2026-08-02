@@ -2,10 +2,10 @@
 title: ORE Skill
 version: 0.1.0
 date: 2026-07-27
-status: Procedural encoding of ORE v0.1.2 and the finding contract v0.1.0 for AI-assisted source grading, evidence auditing, and finding production. Structured so a partial task can be received and completed correctly.
+status: Procedural encoding of ORE v0.1.2 and STRUCK v0.1.1 for AI-assisted source grading, evidence auditing, and finding production. Structured so a partial task can be received and completed correctly.
 related_documents:
   - ore-specification-0_1_2.md (v0.1.2)
-  - finding-contract-0_1_0.md (v0.1.0)
+  - STRUCK v0.1.1 (github.com/CrossWalkri/STRUCK)
   - ore-craft-condition-map-0_1_0.md (v0.1.0)
   - ore-benchmark-case-0_1_0.md (v0.1.0)
   - ore-prompts-0_1_0.md (v0.1.0)
@@ -14,9 +14,9 @@ license: CC0 1.0
 
 # ORE Skill
 
-Invoke this skill before admitting any source into a system that will decide from it, before treating agreement among sources as confirmation, before producing any output offered as evidence-grade, and before auditing someone else's finding. This is a procedural encoding of ORE (Origin, Reliability, Exposure) v0.1.2 and its output-side companion, the finding contract v0.1.0.
+Invoke this skill before admitting any source into a system that will decide from it, before treating agreement among sources as confirmation, before producing any output offered as evidence-grade, and before auditing someone else's finding. This is a procedural encoding of ORE (Origin, Reliability, Exposure) v0.1.2 and its output-side companion, STRUCK v0.1.1.
 
-The two specifications divide the work at the two boundaries. ORE governs what a system may assume about what enters it. The finding contract governs what a system owes on the way out. A system operating both has an account of its material at entry and an account of what rests on it at exit; a system operating neither has confidence it cannot explain.
+The two specifications divide the work at the two boundaries. ORE governs what a system may assume about what enters it. STRUCK governs what a system owes on the way out. A system operating both has an account of its material at entry and an account of what rests on it at exit; a system operating neither has confidence it cannot explain.
 
 ## The commitment that governs every operation below
 

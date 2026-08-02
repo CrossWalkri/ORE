@@ -3,7 +3,7 @@
 
 **Copy-and-run prompts for source grading and evidence-grade findings** · v0.1.0 · 2026-07-27 · CC0 1.0
 
-Five prompts implementing ORE and the finding contract in any AI assistant. Each is self-contained: it carries the definitions it needs, so it works pasted into a fresh conversation with no prior context and no tooling. Paste one, add your material where marked, run it.
+Five prompts implementing ORE and STRUCK in any AI assistant. Each is self-contained: it carries the definitions it needs, so it works pasted into a fresh conversation with no prior context and no tooling. Paste one, add your material where marked, run it.
 
 These encode obligations, not answers. Every one of them ends by handing the judgment back to you, which is the point rather than a hedge.
 
@@ -119,7 +119,7 @@ THE CLAIM THEY SUPPOSEDLY SUPPORT:
 
 ---
 
-## 3. Produce a finding that meets the finding contract
+## 3. Produce a finding that meets STRUCK
 
 Use when turning material into something someone will act on.
 
@@ -175,7 +175,7 @@ THE QUESTION THE FINDING SHOULD ANSWER:
 Use on someone else's finding, or your own before publishing.
 
 ```
-Audit the finding below against the finding contract. Report per obligation:
+Audit the finding below against STRUCK. Report per obligation:
 pass, fail, or not applicable with a stated reason. Then give a verdict.
 
 The five obligations:
@@ -270,4 +270,4 @@ MY SYSTEM:
 
 These prompts state obligations and leave computation to you. None of them will tell you a source is trustworthy, and if an assistant running one of them offers you a single trust score, it has departed from the specification.
 
-The specifications: [ORE](ore-specification-0_1_2.md) for source grading, [the finding contract](finding-contract-0_1_0.md) for outputs. Both CC0. A test case with known ground truth is at [ore-benchmark-case-0_1_0.md](ore-benchmark-case-0_1_0.md).
+The specifications: [ORE](ore-specification-0_1_2.md) for source grading, [STRUCK](https://github.com/CrossWalkri/STRUCK) for outputs. Both CC0. A test case with known ground truth is at [ore-benchmark-case-0_1_0.md](ore-benchmark-case-0_1_0.md).

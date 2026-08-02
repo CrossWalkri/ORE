@@ -47,7 +47,7 @@ S4 reports 61 percent from 40 fixed-radius plots, commissioned by the Halvard Fu
 
 Note also what the headline claim does with this: it reports 61 percent, which is the selection of one side of a live disagreement without disclosing the other. That is a defect in the claim, not in S4.
 
-**Three ways to fail this item.** Averaging the two into a single figure fails the finding contract's Section 4. Flagging the disagreement as an integrity failure, a fabrication, or a reason to distrust either survey is a false positive and the more damaging error, because it suppresses the most informative material in the dossier. Silently dropping S6 because it disagrees with the headline claim is the failure the Adverse-Signal Engagement Principle names, and it is the most common of the three.
+**Three ways to fail this item.** Averaging the two into a single figure fails STRUCK's Section 4. Flagging the disagreement as an integrity failure, a fabrication, or a reason to distrust either survey is a false positive and the more damaging error, because it suppresses the most informative material in the dossier. Silently dropping S6 because it disagrees with the headline claim is the failure the Adverse-Signal Engagement Principle names, and it is the most common of the three.
 
 ## Sources that are clean
 

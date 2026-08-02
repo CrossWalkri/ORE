@@ -17,7 +17,7 @@ The answer key is published separately as `ore-benchmark-key-0_1_0.md`. Run the 
 
 Give a pipeline, an assistant, or a human analyst the headline claim and the twelve sources. Ask for a finding: what can be concluded, resting on what, with what confidence, and what would overturn it. Then score the result against the key.
 
-The case is written to be gradeable by any method. It does not assume ORE, the finding contract, or any tooling, and a pipeline that has never heard of these specifications can be run against it and scored the same way. Where the key refers to a specification obligation it names the plain-language failure alongside it.
+The case is written to be gradeable by any method. It does not assume ORE, STRUCK, or any tooling, and a pipeline that has never heard of these specifications can be run against it and scored the same way. Where the key refers to a specification obligation it names the plain-language failure alongside it.
 
 ## The headline claim
 
