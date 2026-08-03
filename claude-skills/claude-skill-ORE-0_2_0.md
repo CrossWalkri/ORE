@@ -1,26 +1,26 @@
 ---
 title: ORE Skill
-version: 0.1.0
-date: 2026-07-27
-status: Procedural encoding of ORE v0.1.2 and STRUCK v0.1.2 for AI-assisted source grading, evidence auditing, and output production. Structured so a partial task can be received and completed correctly.
+version: 0.2.0
+date: 2026-08-03
+status: Procedural encoding of ORE v0.1.2 for AI-assisted source grading and evidence auditing at the ingestion boundary. Structured so a partial task can be received and completed correctly.
 related_documents:
   - ore-specification-0_1_2.md (v0.1.2)
-  - STRUCK v0.1.2 (github.com/CrossWalkri/STRUCK)
+  - STRUCK v0.1.2 (github.com/CrossWalkri/STRUCK), the companion standard at the output boundary
   - ore-craft-condition-map-0_1_0.md (v0.1.0)
   - ore-benchmark-case-0_1_0.md (v0.1.0)
-  - ore-prompts-0_1_0.md (v0.1.0)
+  - ore-prompts-0_2_0.md (v0.2.0)
 license: CC0 1.0
 ---
 
 # ORE Skill
 
-Invoke this skill before admitting any source into a system that will decide from it, before treating agreement among sources as confirmation, before producing any output offered as evidence-grade, and before auditing someone else's output. This is a procedural encoding of ORE (Origin, Reliability, Exposure) v0.1.2 and its output-side companion, STRUCK v0.1.2.
+Invoke this skill before admitting any source into a system that will decide from it, before treating agreement among sources as confirmation, and when an output must expose the grade profile of the sources it rests on. This is a procedural encoding of ORE (Origin, Reliability, Exposure) v0.1.2, the ingestion-boundary standard.
 
-The two specifications divide the work at the two boundaries. ORE governs what a system may assume about what enters it. STRUCK governs what a system owes on the way out. A system operating both has an account of its material at entry and an account of what rests on it at exit; a system operating neither has confidence it cannot explain.
+ORE covers the ingestion boundary: what a system may assume about what enters it. Its companion STRUCK covers the output boundary, what an output owes on the way out, and has its own skill and prompts. A system operating both has an account of its material at entry and an account of what rests on it at exit; a system operating neither has confidence it cannot explain.
 
-## The commitment that governs every operation below
+## The commitment that holds through every operation below
 
-A grade measures uncertainty, not quality. Every procedure here answers "how much of this can currently be seen, and what is being trusted that cannot be seen." None of them answers "is this good." A grade that never updates and never triggers monitoring is a verdict wearing another name, and issuing verdicts is the failure these specifications exist to replace.
+A grade measures uncertainty, not quality. Every procedure here answers "how much of this can currently be seen, and what is being trusted that cannot be seen." None of them answers "is this good." A grade that never updates and never triggers monitoring is a verdict wearing another name, and issuing verdicts is the failure this specification exists to replace.
 
 Three consequences hold throughout and are not negotiable per task:
 
@@ -38,10 +38,8 @@ Identify which operation is requested and run the corresponding procedure in ful
 4. **Opacity handling.** Run when a source will not disclose its internal architecture. See Part IV.
 5. **Posture declaration.** Run once per system before ingestion, and again when the system's intake changes. See Part V.
 6. **Grade exposure on an output.** Run when any output rests on ingested material. See Part VI.
-7. **Output production.** Run when producing an output offered as evidence-grade. See Part VII.
-8. **Output audit.** Run against an existing output, yours or another party's. See Part VIII.
-9. **Standing-loss assessment.** Run when adverse evidence about an admitted source appears. See Part IX.
-10. **Genesis-limitation handling.** Run when grading a new source or operating a new system. See Part X.
+7. **Standing-loss assessment.** Run when adverse evidence about an admitted source appears. See Part VII.
+8. **Genesis-limitation handling.** Run when grading a new source or operating a new system. See Part VIII.
 
 ---
 
@@ -125,31 +123,7 @@ The worth-judgment belongs to the output's consumer, human or automated. Where a
 
 ---
 
-## Part VII: Output production
-
-An output is any output offered as evidence-grade. Meet five obligations, or declare which does not apply and why. Silence is not conformance.
-
-1. **Graded evidence.** Part VI, applied at the output boundary. No single combined confidence figure.
-2. **Refutation conditions.** State what would overturn the output, in terms of what could be found in the world rather than in terms of process. "If further review disagrees" fails; "if the two registries report different totals for the same period" passes. Where nothing could refute the claim, say so and name why. Never set a condition at a threshold known to be unreachable.
-3. **Contested regions rather than averages.** Where support disagrees, represent the disagreement: what is disputed, which support sits on each side, what it turns on. Never report a mean or midpoint no source asserts. Where a contest is resolved, state the basis and retain the losing position. Where no disagreement exists because only one line of support was consulted, record the absence as unexamined rather than as agreement.
-4. **Derivation to origin.** Part III's labeled chains, carried onto the face of the output, with stopping points declared.
-5. **The judgment stays with the consumer.** Never assert that support is adequate to a decision whose stakes are not known. Stating what would raise confidence, and what that would cost, is an aid rather than a substitute.
-
-Keep all five on the face of the output. Exposure carried in an appendix the claim can be read without does not satisfy the obligation.
-
----
-
-## Part VIII: Output audit
-
-Assess an existing output against the five obligations. Report pass, fail, or not-applicable-with-reason for each, name the specific passage for every failure, and say what would fix it.
-
-Look specifically for the four failures that are common and quiet: a central value no cited source asserts; a review or aggregator cited at the standing of a primary record; refutation conditions phrased as process rather than observation; and a dissenting source dropped rather than represented.
-
-Close with a verdict that distinguishes the two possible claims. An output failing an obligation is not thereby false; it is an output its reader cannot check. Say which you are asserting, and do not claim an output is wrong when what has been established is that it is unverifiable.
-
----
-
-## Part IX: Standing-loss assessment
+## Part VII: Standing-loss assessment
 
 A source's eligibility under a declared posture may be reduced or withdrawn only through a documented, evidence-based process. Record the evidence, the basis, and the decision, and retain the record with the source.
 
@@ -159,7 +133,7 @@ Loss of standing changes eligibility going forward. It is not a retroactive verd
 
 ---
 
-## Part X: Genesis-limitation handling
+## Part VIII: Genesis-limitation handling
 
 Some dimensions are uncomputable at a source's or a system's beginning. A new source has no track record; effective independence may be unassessable before interaction history exists.
 
@@ -170,6 +144,8 @@ Some dimensions are uncomputable at a source's or a system's beginning. A new so
 ---
 
 ## Relations to the rest of the corpus
+
+**STRUCK** is the companion standard at the output boundary. Where ORE covers what a system may assume about what enters it, STRUCK covers what an output owes on the way out. ORE's grade exposure on an output (Part VI) is ORE's own Section 5 obligation, and it is the one STRUCK's graded-evidence requirement inherits by reference and carries to the face of the output. Producing and auditing STRUCK-conformant outputs lives in STRUCK's own skill and prompts, in the STRUCK repository; this skill does not re-encode them.
 
 **CRAFT** is the meta-standard for evaluation chain legibility. ORE is its input-stage companion and carries no CRAFT inheritance receipt, because ingestion is the chain's first stage rather than something before the chain. A CRAFT-conformant chain already owes ORE-equivalent obligations: CRAFT requires each evaluation record to identify its collection provenance, and Condition 6 requires detected errors to propagate back to every prior stage, which can only reach the input stage if a per-source account exists there to arrive at. The mapping is in `ore-craft-condition-map-0_1_0.md`; route conformance questions there rather than re-deriving it.
 
