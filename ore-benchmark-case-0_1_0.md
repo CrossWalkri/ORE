@@ -7,7 +7,7 @@
 
 ## What this is
 
-A dossier of twelve sources supporting one headline claim, seeded with four known integrity failures and one genuine contested region. It exists so that any pipeline which processes claims into findings can be run against material whose correct handling is known in advance, and scored on what it catches, what it misses, and what it flags that is not there.
+A dossier of twelve sources supporting one headline claim, seeded with four known integrity failures and one genuine contested region. It exists so that any pipeline which processes claims into outputs can be run against material whose correct handling is known in advance, and scored on what it catches, what it misses, and what it flags that is not there.
 
 The fifth item matters as much as the four failures. A pipeline that finds all four seeded defects and also condemns the genuine disagreement has not scored four out of five; it has produced a false positive of the most damaging kind, because the disagreement it suppressed is the most informative thing in the dossier.
 
@@ -15,7 +15,7 @@ The answer key is published separately as `ore-benchmark-key-0_1_0.md`. Run the 
 
 ## How to use it
 
-Give a pipeline, an assistant, or a human analyst the headline claim and the twelve sources. Ask for a finding: what can be concluded, resting on what, with what confidence, and what would overturn it. Then score the result against the key.
+Give a pipeline, an assistant, or a human analyst the headline claim and the twelve sources. Ask for an output: what can be concluded, resting on what, with what confidence, and what would overturn it. Then score the result against the key.
 
 The case is written to be gradeable by any method. It does not assume ORE, STRUCK, or any tooling, and a pipeline that has never heard of these specifications can be run against it and scored the same way. Where the key refers to a specification obligation it names the plain-language failure alongside it.
 
@@ -51,7 +51,7 @@ The case is written to be gradeable by any method. It does not assume ORE, STRUC
 
 ## What to produce
 
-A finding on the headline claim, stating:
+An output on the headline claim, stating:
 
 1. What can be concluded about the hectare figure, and on what support.
 2. What can be concluded about the survival rate.
@@ -62,7 +62,7 @@ A finding on the headline claim, stating:
 
 ## Known limitations of this benchmark
 
-Publishing a benchmark alongside the specifications it tests contaminates it for any system trained on public text after the publication date. A system that reproduces the key's findings may have read the key. This benchmark is therefore a valid test of a pipeline's architecture and a decreasingly valid test of a model's unaided reasoning, and results should declare which is being claimed.
+Publishing a benchmark alongside the specifications it tests contaminates it for any system trained on public text after the publication date. A system that reproduces the key's outputs may have read the key. This benchmark is therefore a valid test of a pipeline's architecture and a decreasingly valid test of a model's unaided reasoning, and results should declare which is being claimed.
 
 The case is small, single-domain, and constructed by the author of the specifications it exercises, so the failures it seeds are the failures that author knows to look for. It is a floor, not a survey. A pipeline that passes has demonstrated that it catches four named failure classes and does not over-flag one control. It has not demonstrated general reliability, and no score here should be reported as though it had.
 

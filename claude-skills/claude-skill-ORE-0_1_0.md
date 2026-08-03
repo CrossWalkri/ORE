@@ -2,10 +2,10 @@
 title: ORE Skill
 version: 0.1.0
 date: 2026-07-27
-status: Procedural encoding of ORE v0.1.2 and STRUCK v0.1.1 for AI-assisted source grading, evidence auditing, and finding production. Structured so a partial task can be received and completed correctly.
+status: Procedural encoding of ORE v0.1.2 and STRUCK v0.1.2 for AI-assisted source grading, evidence auditing, and output production. Structured so a partial task can be received and completed correctly.
 related_documents:
   - ore-specification-0_1_2.md (v0.1.2)
-  - STRUCK v0.1.1 (github.com/CrossWalkri/STRUCK)
+  - STRUCK v0.1.2 (github.com/CrossWalkri/STRUCK)
   - ore-craft-condition-map-0_1_0.md (v0.1.0)
   - ore-benchmark-case-0_1_0.md (v0.1.0)
   - ore-prompts-0_1_0.md (v0.1.0)
@@ -14,7 +14,7 @@ license: CC0 1.0
 
 # ORE Skill
 
-Invoke this skill before admitting any source into a system that will decide from it, before treating agreement among sources as confirmation, before producing any output offered as evidence-grade, and before auditing someone else's finding. This is a procedural encoding of ORE (Origin, Reliability, Exposure) v0.1.2 and its output-side companion, STRUCK v0.1.1.
+Invoke this skill before admitting any source into a system that will decide from it, before treating agreement among sources as confirmation, before producing any output offered as evidence-grade, and before auditing someone else's output. This is a procedural encoding of ORE (Origin, Reliability, Exposure) v0.1.2 and its output-side companion, STRUCK v0.1.2.
 
 The two specifications divide the work at the two boundaries. ORE governs what a system may assume about what enters it. STRUCK governs what a system owes on the way out. A system operating both has an account of its material at entry and an account of what rests on it at exit; a system operating neither has confidence it cannot explain.
 
@@ -38,8 +38,8 @@ Identify which operation is requested and run the corresponding procedure in ful
 4. **Opacity handling.** Run when a source will not disclose its internal architecture. See Part IV.
 5. **Posture declaration.** Run once per system before ingestion, and again when the system's intake changes. See Part V.
 6. **Grade exposure on an output.** Run when any output rests on ingested material. See Part VI.
-7. **Finding production.** Run when producing an output offered as evidence-grade. See Part VII.
-8. **Finding audit.** Run against an existing finding, yours or another party's. See Part VIII.
+7. **Output production.** Run when producing an output offered as evidence-grade. See Part VII.
+8. **Output audit.** Run against an existing output, yours or another party's. See Part VIII.
 9. **Standing-loss assessment.** Run when adverse evidence about an admitted source appears. See Part IX.
 10. **Genesis-limitation handling.** Run when grading a new source or operating a new system. See Part X.
 
@@ -107,7 +107,7 @@ Declare one posture per system, or different postures per source class. State th
 
 **Graded.** Everything admitted enters at the grade its visible properties warrant, with review effort prioritized by uncertainty so the thinnest accounts get eyes first. Downstream condition: outputs may rest on any graded material and expose the profile; flagged dimensions travel with the record.
 
-**Open.** Bulk material enters ungraded into quarantine. It may serve discovery, search and lead generation. It may not support findings, attestations or decisions until graded. Downstream condition: the citation boundary is absolute. One channel remains open and must be declared rather than denied: a quarantined item read by a person who then produces a finding that never cites it. That is the residual channel, and no structural boundary closes it.
+**Open.** Bulk material enters ungraded into quarantine. It may serve discovery, search and lead generation. It may not support outputs, attestations or decisions until graded. Downstream condition: the citation boundary is absolute. One channel remains open and must be declared rather than denied: a quarantined item read by a person who then produces an output that never cites it. That is the residual channel, and no structural boundary closes it.
 
 Movement between postures is expected and legitimate. What conformance requires is that the posture in force when a record was admitted is recorded with it, so no record's grading history is ambiguous later.
 
@@ -125,27 +125,27 @@ The worth-judgment belongs to the output's consumer, human or automated. Where a
 
 ---
 
-## Part VII: Finding production
+## Part VII: Output production
 
-A finding is any output offered as evidence-grade. Meet five obligations, or declare which does not apply and why. Silence is not conformance.
+An output is any output offered as evidence-grade. Meet five obligations, or declare which does not apply and why. Silence is not conformance.
 
-1. **Graded evidence.** Part VI, applied at the finding boundary. No single combined confidence figure.
-2. **Refutation conditions.** State what would overturn the finding, in terms of what could be found in the world rather than in terms of process. "If further review disagrees" fails; "if the two registries report different totals for the same period" passes. Where nothing could refute the claim, say so and name why. Never set a condition at a threshold known to be unreachable.
+1. **Graded evidence.** Part VI, applied at the output boundary. No single combined confidence figure.
+2. **Refutation conditions.** State what would overturn the output, in terms of what could be found in the world rather than in terms of process. "If further review disagrees" fails; "if the two registries report different totals for the same period" passes. Where nothing could refute the claim, say so and name why. Never set a condition at a threshold known to be unreachable.
 3. **Contested regions rather than averages.** Where support disagrees, represent the disagreement: what is disputed, which support sits on each side, what it turns on. Never report a mean or midpoint no source asserts. Where a contest is resolved, state the basis and retain the losing position. Where no disagreement exists because only one line of support was consulted, record the absence as unexamined rather than as agreement.
-4. **Derivation to origin.** Part III's labeled chains, carried onto the face of the finding, with stopping points declared.
+4. **Derivation to origin.** Part III's labeled chains, carried onto the face of the output, with stopping points declared.
 5. **The judgment stays with the consumer.** Never assert that support is adequate to a decision whose stakes are not known. Stating what would raise confidence, and what that would cost, is an aid rather than a substitute.
 
-Keep all five on the face of the finding. Exposure carried in an appendix the claim can be read without does not satisfy the obligation.
+Keep all five on the face of the output. Exposure carried in an appendix the claim can be read without does not satisfy the obligation.
 
 ---
 
-## Part VIII: Finding audit
+## Part VIII: Output audit
 
-Assess an existing finding against the five obligations. Report pass, fail, or not-applicable-with-reason for each, name the specific passage for every failure, and say what would fix it.
+Assess an existing output against the five obligations. Report pass, fail, or not-applicable-with-reason for each, name the specific passage for every failure, and say what would fix it.
 
 Look specifically for the four failures that are common and quiet: a central value no cited source asserts; a review or aggregator cited at the standing of a primary record; refutation conditions phrased as process rather than observation; and a dissenting source dropped rather than represented.
 
-Close with a verdict that distinguishes the two possible claims. A finding failing an obligation is not thereby false; it is a finding its reader cannot check. Say which you are asserting, and do not claim a finding is wrong when what has been established is that it is unverifiable.
+Close with a verdict that distinguishes the two possible claims. An output failing an obligation is not thereby false; it is an output its reader cannot check. Say which you are asserting, and do not claim an output is wrong when what has been established is that it is unverifiable.
 
 ---
 

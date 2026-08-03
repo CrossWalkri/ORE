@@ -1,7 +1,7 @@
 
 # ORE Prompts
 
-**Copy-and-run prompts for source grading and evidence-grade findings** · v0.1.0 · 2026-07-27 · CC0 1.0
+**Copy-and-run prompts for source grading and evidence-grade outputs** · v0.1.0 · 2026-07-27 · CC0 1.0
 
 Five prompts implementing ORE and STRUCK in any AI assistant. Each is self-contained: it carries the definitions it needs, so it works pasted into a fresh conversation with no prior context and no tooling. Paste one, add your material where marked, run it.
 
@@ -119,23 +119,23 @@ THE CLAIM THEY SUPPOSEDLY SUPPORT:
 
 ---
 
-## 3. Produce a finding that meets STRUCK
+## 3. Produce an output that meets STRUCK
 
 Use when turning material into something someone will act on.
 
 ```
-Produce a finding from the material I give you. A finding is an output offered as
-evidence-grade, so it carries five obligations. Meet all five, or explicitly say
+Produce an output from the material I give you, offered as evidence-grade, so it
+carries five obligations. Meet all five, or explicitly say
 which one does not apply here and why. Silence about an obligation is not
 conformance.
 
-1. GRADED EVIDENCE. Expose what the finding rests on. For each dimension of source
+1. GRADED EVIDENCE. Expose what the output rests on. For each dimension of source
    quality, report the weakest assessment anywhere in the support, plus every gap
    or flag any source carries. If some support is ungraded, say so on the face of
-   the finding. If separately obtained sources cannot be shown distinct in origin,
+   the output. If separately obtained sources cannot be shown distinct in origin,
    flag that. Do not compress this into one confidence number.
 
-2. REFUTATION CONDITIONS. State what would overturn this finding, in terms of what
+2. REFUTATION CONDITIONS. State what would overturn this output, in terms of what
    could be found in the world rather than in terms of process. "If further review
    disagrees" is not a refutation condition. "If the two registries report
    different totals for the same period" is. If nothing could refute it, say so
@@ -158,24 +158,24 @@ conformance.
    would cost, which you do not know. You may tell me what would raise confidence
    and what that would take.
 
-Keep all of this on the face of the finding. Do not put the exposure in an appendix
+Keep all of this on the face of the output. Do not put the exposure in an appendix
 the claim can be read without.
 
 THE MATERIAL:
 [paste it here]
 
-THE QUESTION THE FINDING SHOULD ANSWER:
+THE QUESTION THE OUTPUT SHOULD ANSWER:
 [state it here]
 ```
 
 ---
 
-## 4. Audit an existing finding against the contract
+## 4. Audit an existing output against the contract
 
-Use on someone else's finding, or your own before publishing.
+Use on someone else's output, or your own before publishing.
 
 ```
-Audit the finding below against STRUCK. Report per obligation:
+Audit the output below against STRUCK. Report per obligation:
 pass, fail, or not applicable with a stated reason. Then give a verdict.
 
 The five obligations:
@@ -200,11 +200,10 @@ The five obligations:
 
 For each failure, state the specific passage and what would fix it.
 
-Then the verdict. A finding failing any obligation is not thereby false; it is a
-finding its reader cannot check. Say which of the two you are claiming, and do not
-claim the finding is wrong when what you have established is that it is unverifiable.
+Then the verdict. An output failing any obligation is not thereby false; it is an output its reader cannot check. Say which of the two you are claiming, and do not
+claim the output is wrong when what you have established is that it is unverifiable.
 
-THE FINDING:
+THE OUTPUT:
 [paste it here]
 ```
 
@@ -232,7 +231,7 @@ review effort goes first to the thinnest accounts. Fits where volume exceeds
 entry-review capacity but decisions draw continuously on the store.
 
 OPEN. Bulk material enters ungraded into quarantine. It may serve discovery, search
-and lead generation. It may not support any finding, attestation or decision until
+and lead generation. It may not support any output, attestation or decision until
 graded. Fits corpus migration and exploratory ingestion. The citation boundary is
 absolute.
 
@@ -250,7 +249,7 @@ Do this:
 
 4. If any part is Open, describe how the quarantine boundary is enforced
    structurally rather than by policy, and name the residual channel: a quarantined
-   item that a person reads and then acts on, in a finding that never cites it. That
+   item that a person reads and then acts on, in an output that never cites it. That
    channel stays open under this posture and has to be declared rather than denied.
 
 5. Tell me what has to be recorded with each admitted record so its grading history
@@ -258,7 +257,7 @@ Do this:
 
 6. Give me the standing-loss process: how a source's eligibility can be reduced or
    withdrawn, with evidence and basis recorded, never silently discarding an adverse
-   finding, and not applied retroactively to outputs already produced.
+   output, and not applied retroactively to outputs already produced.
 
 MY SYSTEM:
 [describe what it ingests, from where, at what volume, and what decisions it feeds]

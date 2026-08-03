@@ -53,7 +53,7 @@ Note also what the headline claim does with this: it reports 61 percent, which i
 
 S4, S6, S7, S8, S10 and S11 carry no seeded defects. S4 and S6 disagree, which is not a defect in either. A pipeline that flags any of these six as compromised has produced a false positive, and false positives should be scored, not just misses.
 
-## The finding a conformant pipeline should produce
+## The output a conformant pipeline should produce
 
 Roughly this, in whatever form the pipeline uses:
 
