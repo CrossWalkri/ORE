@@ -5,10 +5,11 @@ A companion specification to [CRAFT](https://github.com/CrossWalkri/craft-meta-s
 Every system that turns records into decisions has sources it did not create. ORE specifies what an honest account of a source must contain, and what a system is obligated to do differently when that account is thin. It grades uncertainty, never worth: a grade calibrates weight, monitoring, and eligible downstream use, and the judgment of whether the support suffices stays with the output's consumer, human or automated, never with the grade.
 
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/evidence-path-0_1_0-dark.svg">
-  <img alt="CRAFT governs the chain from world to decision end to end; ORE sits at its source boundary, WALKRI on its intake fields, the finding at its claim. ORE is not a stage before the chain; it is the accounting discipline for what the chain assumes at entry." src="images/evidence-path-0_1_0-light.svg" width="880">
-</picture>
+<img alt="CRAFT is the meta-standard for an evaluation chain, drawn as a room whose six conditions (decision context, ontology, instruments, criteria set, decision logic, feedback) run its length from world to decision. ORE is the door in and STRUCK the door out, the two boundary standards CRAFT requires; WALKRI stands at the intake fields." src="images/standards-family-0_1_0.svg" width="880">
+</p>
+
+<p align="center">
+<img alt="ORE and STRUCK on their own: the two ends of any chain, independently adoptable, bracketing any process with or without CRAFT in the middle." src="images/ore-struck-pair-0_1_0.svg" width="820">
 </p>
 
 What only ORE does, in one line: grade source visibility as uncertainty, refuse to let party count impersonate independence, treat opacity without verdicts, and make every output wear the grade profile of what it rests on.
@@ -34,7 +35,7 @@ Plus **intake postures** (Screened, Graded, Open): systems legitimately differ i
 
 ORE inherits by reference from [CRAFT](https://github.com/CrossWalkri/craft-meta-standard) (the chain), [WALKRI](https://github.com/CrossWalkri) (the field: the paired instrument at the same boundary), the [Precision-First Design Standard](https://github.com/coordination-structural-integrity-suite/suite) (operational definability), and the [Information Asymmetry Classification Standard](https://github.com/coordination-structural-integrity-suite/suite) (the asymmetry taxonomy). It is independently adoptable: taking ORE requires taking nothing else.
 
-CRAFT governs the chain end to end as process; the others sit at loci on it. **ORE** is the accounting discipline at the source boundary (not a stage before the chain: ingestion is the chain's first stage, and ORE specifies what may be assumed about the sources feeding it). **WALKRI** holds the intake fields, and **[STRUCK](https://github.com/CrossWalkri/STRUCK)**, the exit-boundary standard for what an output must carry before anyone acts on it, binds the claim at exit.
+CRAFT holds the chain end to end as process; the others sit at loci on it. **ORE** is the accounting discipline at the source boundary (not a stage before the chain: ingestion is the chain's first stage, and ORE specifies what may be assumed about the sources feeding it). **WALKRI** holds the intake fields, and **[STRUCK](https://github.com/CrossWalkri/STRUCK)**, the exit-boundary standard for what an output must carry before anyone acts on it, binds the claim at exit.
 
 The through line, stated once: every system that turns records into decisions has the same anatomy. Sources feed in material the system did not create, fields capture that material as data, and a chain of evaluation carries it to a claim someone acts on. Knowing begins honestly, or begins broken, in three places, and one standard stands at each: ORE at the source boundary, [WALKRI](https://github.com/CrossWalkri/WALKRI) at the field, [CRAFT](https://github.com/CrossWalkri/craft-meta-standard) over the whole path. One commitment runs through all three: no silent trust anywhere, and the worth-judgment left visible in the hands, human or automated, that make it. Each is independently adoptable; the through line is what they hold together.
 
