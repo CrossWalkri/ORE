@@ -170,7 +170,7 @@ THE QUESTION THE OUTPUT SHOULD ANSWER:
 
 ---
 
-## 4. Audit an existing output against the contract
+## 4. Audit an existing output against STRUCK
 
 Use on someone else's output, or your own before publishing.
 
