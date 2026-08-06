@@ -41,6 +41,10 @@ The through line, stated once: every system that turns records into decisions ha
 
 As of CRAFT v0.4.4, a chain that ingests material it did not create carries an ingestion boundary declaration (CRAFT Section 6.1), satisfied by adopting ORE or by declaring equivalent obligations. Where ORE attaches to each of CRAFT's six conditions is mapped, condition by condition, in the **[ORE-to-CRAFT condition map](ore-craft-condition-map-0_1_0.md)**.
 
+<p align="center">
+<img alt="A two-column map of CRAFT's six conditions and what ORE completes at each. 1 Decision Context: declares what comes in the front door. 2 Technical Ontology: no silent gaps in what the chain is fed. 3 Measurement Instruments: completes each instrument's uncertainty budget. 4 Pre-Specified Criteria: keeps the criteria's foundations from being post-hoc. 5 Explicit Decision Logic: legible ingredients in, accountable combining. 6 Feedback with Propagation: a forwarding address for the world's faults." src="images/ore-craft-condition-map-0_1_0.svg" width="820">
+</p>
+
 ## License
 
 CC0 1.0 Universal. No permission or fee, no attribution required. See [LICENSE](LICENSE).

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 452" fill="none">
+<style>
+@media (prefers-color-scheme: dark) {
+  .t-slate { fill: #8CADBE; }
+  .t-ore   { fill: #D08A82; }
+  .t-muted { fill: #9DA7B0; }
+  .t-body  { fill: #ADBAC7; }
+  .k-slate { stroke: #8CADBE; }
+  .k-ore   { stroke: #D08A82; }
+  .k-muted { stroke: #9DA7B0; }
+}
+</style>
+
+<text class="t-slate" x="185" y="24" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2" fill="#3E5C6B" font-weight="600">CRAFT&#8217;S SIX CONDITIONS</text>
+<text class="t-ore" x="640" y="24" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2" fill="#B0554B" font-weight="600">WHAT ORE COMPLETES</text>
+
+<!-- Row 1 -->
+<rect class="k-slate" x="20" y="42" width="330" height="54" rx="10" fill="none" stroke="#3E5C6B" stroke-width="1.5"/>
+<text x="40" y="75" font-family="ui-monospace, monospace" font-size="15"><tspan class="t-ore" fill="#B0554B" font-weight="700">1</tspan><tspan class="t-body" fill="#24292F">  Decision Context</tspan></text>
+<line class="k-ore" x1="358" y1="69" x2="388" y2="69" stroke="#B0554B" stroke-width="1.5"/>
+<path class="t-ore" d="M388 69 l-9 -4 l0 8 z" fill="#B0554B"/>
+<rect class="k-muted" x="400" y="42" width="480" height="54" rx="10" fill="none" stroke="#57606A" stroke-width="1.2"/>
+<text class="t-muted" x="418" y="75" font-family="system-ui, sans-serif" font-size="13.5" fill="#57606A">Declares what comes in the front door</text>
+
+<!-- Row 2 -->
+<rect class="k-slate" x="20" y="108" width="330" height="54" rx="10" fill="none" stroke="#3E5C6B" stroke-width="1.5"/>
+<text x="40" y="141" font-family="ui-monospace, monospace" font-size="15"><tspan class="t-ore" fill="#B0554B" font-weight="700">2</tspan><tspan class="t-body" fill="#24292F">  Technical Ontology</tspan></text>
+<line class="k-ore" x1="358" y1="135" x2="388" y2="135" stroke="#B0554B" stroke-width="1.5"/>
+<path class="t-ore" d="M388 135 l-9 -4 l0 8 z" fill="#B0554B"/>
+<rect class="k-muted" x="400" y="108" width="480" height="54" rx="10" fill="none" stroke="#57606A" stroke-width="1.2"/>
+<text class="t-muted" x="418" y="141" font-family="system-ui, sans-serif" font-size="13.5" fill="#57606A">No silent gaps in what the chain is fed</text>
+
+<!-- Row 3 -->
+<rect class="k-slate" x="20" y="174" width="330" height="54" rx="10" fill="none" stroke="#3E5C6B" stroke-width="1.5"/>
+<text x="40" y="207" font-family="ui-monospace, monospace" font-size="15"><tspan class="t-ore" fill="#B0554B" font-weight="700">3</tspan><tspan class="t-body" fill="#24292F">  Measurement Instruments</tspan></text>
+<line class="k-ore" x1="358" y1="201" x2="388" y2="201" stroke="#B0554B" stroke-width="1.5"/>
+<path class="t-ore" d="M388 201 l-9 -4 l0 8 z" fill="#B0554B"/>
+<rect class="k-muted" x="400" y="174" width="480" height="54" rx="10" fill="none" stroke="#57606A" stroke-width="1.2"/>
+<text class="t-muted" x="418" y="207" font-family="system-ui, sans-serif" font-size="13.5" fill="#57606A">Completes each instrument&#8217;s uncertainty budget</text>
+
+<!-- Row 4 -->
+<rect class="k-slate" x="20" y="240" width="330" height="54" rx="10" fill="none" stroke="#3E5C6B" stroke-width="1.5"/>
+<text x="40" y="273" font-family="ui-monospace, monospace" font-size="15"><tspan class="t-ore" fill="#B0554B" font-weight="700">4</tspan><tspan class="t-body" fill="#24292F">  Pre-Specified Criteria</tspan></text>
+<line class="k-ore" x1="358" y1="267" x2="388" y2="267" stroke="#B0554B" stroke-width="1.5"/>
+<path class="t-ore" d="M388 267 l-9 -4 l0 8 z" fill="#B0554B"/>
+<rect class="k-muted" x="400" y="240" width="480" height="54" rx="10" fill="none" stroke="#57606A" stroke-width="1.2"/>
+<text class="t-muted" x="418" y="273" font-family="system-ui, sans-serif" font-size="13.5" fill="#57606A">Keeps the criteria&#8217;s foundations from being post-hoc</text>
+
+<!-- Row 5 -->
+<rect class="k-slate" x="20" y="306" width="330" height="54" rx="10" fill="none" stroke="#3E5C6B" stroke-width="1.5"/>
+<text x="40" y="339" font-family="ui-monospace, monospace" font-size="15"><tspan class="t-ore" fill="#B0554B" font-weight="700">5</tspan><tspan class="t-body" fill="#24292F">  Explicit Decision Logic</tspan></text>
+<line class="k-ore" x1="358" y1="333" x2="388" y2="333" stroke="#B0554B" stroke-width="1.5"/>
+<path class="t-ore" d="M388 333 l-9 -4 l0 8 z" fill="#B0554B"/>
+<rect class="k-muted" x="400" y="306" width="480" height="54" rx="10" fill="none" stroke="#57606A" stroke-width="1.2"/>
+<text class="t-muted" x="418" y="339" font-family="system-ui, sans-serif" font-size="13.5" fill="#57606A">Legible ingredients in, accountable combining</text>
+
+<!-- Row 6 -->
+<rect class="k-slate" x="20" y="372" width="330" height="54" rx="10" fill="none" stroke="#3E5C6B" stroke-width="1.5"/>
+<text x="40" y="405" font-family="ui-monospace, monospace" font-size="15"><tspan class="t-ore" fill="#B0554B" font-weight="700">6</tspan><tspan class="t-body" fill="#24292F">  Feedback with Propagation</tspan></text>
+<line class="k-ore" x1="358" y1="399" x2="388" y2="399" stroke="#B0554B" stroke-width="1.5"/>
+<path class="t-ore" d="M388 399 l-9 -4 l0 8 z" fill="#B0554B"/>
+<rect class="k-muted" x="400" y="372" width="480" height="54" rx="10" fill="none" stroke="#57606A" stroke-width="1.2"/>
+<text class="t-muted" x="418" y="405" font-family="system-ui, sans-serif" font-size="13.5" fill="#57606A">A forwarding address for the world&#8217;s faults</text>
+</svg>
