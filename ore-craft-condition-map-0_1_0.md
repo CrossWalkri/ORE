@@ -10,6 +10,8 @@ license-intent: CC0
 
 CRAFT depends on ORE and STRUCK; neither depends on CRAFT. CRAFT's six conditions discipline the evaluation chain an operator builds, and a complete CRAFT certification is not whole without an account of what the chain rests on at ingestion. This document is the worked account of what CRAFT gets from ORE at each of the six conditions, at the ingestion boundary, into the part of the chain the operator did not build. As of CRAFT v0.4.4, a chain that ingests material it did not create carries an ingestion boundary declaration (CRAFT Section 6.1), satisfied by adopting ORE or by declaring equivalent obligations; this map shows, condition by condition, what that adoption gives CRAFT.
 
+A note on the name: the title is the contribution direction, what ORE gives CRAFT to complete it, not a dependency of ORE on CRAFT. CRAFT requires ORE, not the reverse.
+
 The map is descriptive. Nothing here adds obligations beyond what the two specifications state; where a mapping suggests a future obligation, it is marked as a direction, not a requirement.
 
 ## Condition 1: Decision Context Specification
